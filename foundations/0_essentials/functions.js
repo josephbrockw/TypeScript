@@ -14,7 +14,9 @@ function performJob(cb) {
     cb();
 }
 function printResult(a, b, cb) {
-    console.log("Result: ".concat(cb(a, b)));
+    console.log(`Result: ${cb(a, b)}`);
 }
 printResult(5, 10, add);
 printResult(5, 10, multiply);
+export {};
+//# sourceMappingURL=functions.js.map

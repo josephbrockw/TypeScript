@@ -1,12 +1,11 @@
+import fs from 'node:fs';
+// fs.readFileSync();
 let userName;
-// ...
 userName = "Casey";
+console.log(`User name is: ${userName}`);
 function add(x, y = 5) {
     return x + y;
 }
 const sum = add(5);
 console.log(`The sum is: ${sum}`);
-let age = 36;
-age = '37';
-export {};
-//# sourceMappingURL=basics.js.map
+//# sourceMappingURL=app.js.map
